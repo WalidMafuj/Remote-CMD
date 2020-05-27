@@ -2,6 +2,7 @@ import socket
 import sys
 import os
 import subprocess
+os.system("cd"+">result.txt")
 try:
     s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     print("socket created")
