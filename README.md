@@ -1,0 +1,15 @@
+# Remote-CMD
+What if we could use CMD of our computer remotely using another device maybe an android smartphone or raspberry pi !!.
+we built this python script for you.
+
+### Server side
+Copy "Host_windows-machine.py to the folder where you want to run cmd.
+Run the script and allow connection prompt.
+Note: if you want to run this script in background you can make it formless ".exe" by converting this Python script [.py file] into an Executable file [.exe file.]
+
+###Remote side
+Install python
+If you are using android then use "termux" app or anyother terminal emulator. then run this command "pkg install python"
+Run "remote.py" by using this command "python remote.py" [Note: for linux or android devices use this command "cd [location of remote.py file]" to select the location of remote.py file. (eg. "cd /sdcard/download/remote.py")   ]
+
+## Thank You :) 
